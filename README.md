@@ -1,11 +1,7 @@
 # Ehcache monitoring
 
-Ehcache monitoring extends the hac in SAP Commerce Cloud to show the usage and content of the Ehcache's used in SAP Commerce Cloud.
-There are a couple of Ehcache's attached the various OCC controller and the developer has no capabilities to flush the cache locally 
-nor it is possible at runtime to review the cache hit/ratio to be able to tune the cache usage.
-
-The new tab in hac will show you all Ehcache's and also allows to fetch the content of the cache and search in it. Additionally, the
-new tab will also allow to flush the each individual cache or all cache on a node or on all nodes in the cluster.
+Ehcache monitoring capabilities of SAP Commerce Cloud to replicate the content of various ehcache's across cluster nodes via content replication.
+There are some sample change to the OOTB ehcache configuration files for the OCC layer attached which can be used to enhance the OCC layer caches without changing the OOTB extensions.
 
 ## Installation
 
@@ -14,13 +10,12 @@ rebuild and start SAP Commerce. Now you will see a new tab in the hac menu.
 
 Add to your localextensions.xml
 ```bash
-    <extension name='ehcachehac' />
+    <extension name='ehcachereplication' />
 ```
 
 ## Usage
 
-Login to hac and open the new tab "Ehcache --> Cache". Search for your interested Ehcache, the screen shows the cache name and the cache
-manager.
+Enable the extension in your setup and load an adjusted ehcache.xml file for the OCC which correspondents with the used SAP Commerce version.
 
 ## Contributing
 
