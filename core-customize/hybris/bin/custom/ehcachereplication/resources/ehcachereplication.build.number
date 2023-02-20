@@ -1,0 +1,11 @@
+#Ant properties
+#Fri Dec 02 03:28:39 CET 2022
+version.api=2211
+vendor=hybris
+group.id=de.hybris.platform
+name=ehcachereplication
+description=ehcachereplication
+builddate=20221202 0328
+releasedate=20221109 1322
+version=2211.1
+module.name=platform-module

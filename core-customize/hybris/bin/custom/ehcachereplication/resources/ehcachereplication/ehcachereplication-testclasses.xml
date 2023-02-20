@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testclasses><ehcachereplication><testclass>us.rubicon_consulting.service.impl.DefaultEhcachereplicationServiceIntegrationTest</testclass><testclass>us.rubicon_consulting.jalo.EhcachereplicationTest</testclass></ehcachereplication></testclasses>
